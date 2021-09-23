@@ -14,7 +14,7 @@ public class Test1 {
 		WebDriver driver=new EdgeDriver();
 		driver.get("https://google.com/");
 		String vTitle=driver.getTitle();
-		System.out.println("The title is" +vTitle);
+		System.out.println("The title is " +vTitle);
 		Thread.sleep(5000);
 		driver.close();
 
